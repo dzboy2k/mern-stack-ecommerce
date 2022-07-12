@@ -86,3 +86,22 @@ npm install express
 ```
 npm install dotenv
 ```
+
+#### Create First API Call & Parsing Json Data
+```
+http://localhost:3000/api/v1/products GET
+http://localhost:3000/api/v1/products POST
+{
+  "id": 1,
+  "name": "hair dresser",
+  "image": "some_url"
+}
+
+npm install body-parser
+
+{
+  "id": 1,
+  "name": "hair dresser 2",
+  "image": "some_url"
+}
+```
