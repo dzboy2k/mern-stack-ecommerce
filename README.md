@@ -105,3 +105,8 @@ npm install body-parser
   "image": "some_url"
 }
 ```
+
+#### Logging API Requests
+```
+npm install morgan
+```
