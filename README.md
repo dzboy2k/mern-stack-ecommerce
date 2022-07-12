@@ -110,3 +110,26 @@ npm install body-parser
 ```
 npm install morgan
 ```
+
+#### Installing Mongoose and Connect to MongoDB Database
+```
+npm install mongoose
+
+cloud.mongodb.com
+  Clusters => Connect => Connect your application
+  Database Access => Add New Database User
+    eshop-user
+    1234567Rr
+  Collections => Create Database
+    Database name: eshop-database
+    Collection name: products
+    => Create
+  Network Access => Add IP Address 
+    => Allow Access from Anywhere 
+
+    => Add Current IP Address
+      Access List Entry: 86.49.226.106
+      Comment: my-home-office
+
+Google: what is my ip
+```
