@@ -81,3 +81,8 @@ package.json
 
 npm install express
 ```
+
+#### Reading Environment Variables
+```
+npm install dotenv
+```
