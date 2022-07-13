@@ -133,3 +133,28 @@ cloud.mongodb.com
 
 Google: what is my ip
 ```
+
+#### Read_Write Data to Database Using API
+```
+mongoose schema
+http://localhost:3000/api/v1/products POST
+{
+  "id": 1,
+  "name": "hair dresser 2",
+  "image": "some_url"
+}
+{
+  "id": 1,
+  "name": "hair dresser 2",
+  "image": "some_url",
+  "countInStock": 500
+}
+{
+  "id": 1,
+  "name": "hair dresser 2",
+  "image": "some_url",
+  "countInStock": 500
+}
+
+http://localhost:3000/api/v1/products GET
+```
