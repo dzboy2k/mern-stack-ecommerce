@@ -158,3 +158,5 @@ http://localhost:3000/api/v1/products POST
 
 http://localhost:3000/api/v1/products GET
 ```
+
+#### Create Backend API Routes & Schemas
