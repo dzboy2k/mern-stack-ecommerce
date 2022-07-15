@@ -176,3 +176,5 @@ Schemas
 SchemaTypes
 SchemaTypeOptions
 ```
+
+#### Categories Model & Scheme
