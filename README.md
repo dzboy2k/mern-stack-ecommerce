@@ -221,3 +221,19 @@ http://localhost:3000/api/v1/categories POST
   "color": "#050505"
 }
 ```
+
+#### Update Category
+```
+http://localhost:3000/api/v1/categories/62c832ba6adb0c3d617e8db5 PUT
+{
+  "name": "Electronics",
+  "icon": "icon-electronics",
+  "color": "#5555"
+}
+
+{
+  "name": "beuty",
+  "icon": "icon-beuty",
+  "color": "#5555"
+}
+```
