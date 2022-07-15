@@ -165,3 +165,14 @@ http://localhost:3000/api/v1/products GET
 ```
 npm install cors
 ```
+
+### 3 - Backend: Products & Categories
+
+#### Products Model & Scheme
+```
+https://mongoosejs.com
+https://mongoosejs.com/docs/guide.html
+Schemas
+SchemaTypes
+SchemaTypeOptions
+```
