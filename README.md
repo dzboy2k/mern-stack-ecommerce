@@ -178,3 +178,30 @@ SchemaTypeOptions
 ```
 
 #### Categories Model & Scheme
+
+#### Add and Delete Categories
+```
+http://localhost:3000/api/v1/categories POST
+{
+  "name": "health",
+  "icon": "icon-health",
+  "color": "#050505"
+}
+
+{
+  "name": "computers",
+  "icon": "icon-computer",
+  "color": "#444"
+}
+
+{
+  "name": "computers11",
+  "icon": "icon-computer",
+  "color": "#444"
+}
+62d0c0fa58d8b8b5767a38c0
+
+http://localhost:3000/api/v1/categories/62d0c0fa58d8b8b5767a38c0 DELETE
+
+http://localhost:3000/api/v1/categories GET
+```
