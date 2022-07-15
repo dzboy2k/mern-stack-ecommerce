@@ -160,3 +160,8 @@ http://localhost:3000/api/v1/products GET
 ```
 
 #### Create Backend API Routes & Schemas
+
+#### Enabling CORS & Why Do We Need It?
+```
+npm install cors
+```
