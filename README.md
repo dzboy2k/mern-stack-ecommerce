@@ -205,3 +205,19 @@ http://localhost:3000/api/v1/categories/62d0c0fa58d8b8b5767a38c0 DELETE
 
 http://localhost:3000/api/v1/categories GET
 ```
+
+#### Get Categories and Category Details
+```
+http://localhost:3000/api/v1/categories POST
+{
+  "name": "computers11",
+  "icon": "icon-computer",
+  "color": "#444"
+}
+
+{
+  "name": "health",
+  "icon": "icon-health",
+  "color": "#050505"
+}
+```
